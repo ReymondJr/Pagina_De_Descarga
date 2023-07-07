@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(33, 30, 28);
+    font-family: 'Times New Roman', Times;
+}
+
+.headerprincipal{
+    align-items: center;
+    background: rgb(103, 102, 145);
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+
+}
+.Container{
+    display: flex;
+    width: 100%;
+}
+.Inicio{
+    font-size: 1.5rem;
+    color: black;
+    width: 80%;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.redes{
+    color: #fff;
+    width: 35%;
+    height: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+.redes a {
+    text-decoration: none;
+}
+.redes a:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    opacity: .9;
+}
+.redes_imagen{
+    width: 30%;
+    justify-content: center;
+    display: flex;
+    margin-right: 2px; /* Espacio entre los iconos */
+    margin-bottom: 2px; /* Espacio entre las líneas */
+}
+.tipos_redes{
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
